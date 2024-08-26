@@ -1,0 +1,8 @@
+first=int(input("ВВедите любое число, первое из трех: "))
+second=int(input("ВВедите любое число, второе из трех: "))
+third=int(input("ВВедите любое число, третье из трех: "))
+if first==second==third:
+    print(3)
+elif first!=second and second!=third and first!=third:
+    print(0)
+else:print(2)
